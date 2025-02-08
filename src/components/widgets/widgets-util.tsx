@@ -56,7 +56,7 @@ export function createWidgetsNode(type: WidgetType): WidgetNode {
             avatarUrl: '/avatar.jpg',
             avatarSize: 86,
             avatarRound: true,
-            name: isChinese ? '炭治郎' : 'Tanjiro',
+            name: isChinese ? '马斯克' : 'mask',
             jobTitle: isChinese ? '前端开发工程师' : 'Frontend Developer',
             linksGroup: [
               [
@@ -67,7 +67,7 @@ export function createWidgetsNode(type: WidgetType): WidgetNode {
                 },
                 {
                   href: '',
-                  content: '15123456789',
+                  content: '12345678910',
                   icon: 'phone',
                 },
               ],
@@ -78,8 +78,8 @@ export function createWidgetsNode(type: WidgetType): WidgetNode {
                   icon: 'github',
                 },
                 {
-                  href: 'mailto:tanjiro@gmail.com',
-                  content: 'tanjiro@gmail.com',
+                  href: 'mailto:mask@gmail.com',
+                  content: 'mask@gmail.com',
                   icon: 'gmail',
                 },
               ],
@@ -179,18 +179,18 @@ export const createDefaultData: () => WidgetNode[] = () => {
           avatarUrl: '/avatar.jpg',
           avatarSize: 86,
           avatarRound: true,
-          name: isChinese ? '炭治郎' : 'Tanjiro',
+          name: isChinese ? '马斯克' : 'mask',
           jobTitle: isChinese ? '前端开发工程师' : 'Frontend Developer',
           linksGroup: [
             [
               { href: '', content: '2050/01', icon: 'cake' },
-              { href: '', content: '15123456789', icon: 'phone' },
+              { href: '', content: '12345678910', icon: 'phone' },
             ],
             [
               { href: 'https://github.com/', content: 'github.com', icon: 'github' },
               {
-                href: 'mailto:tanjiro@gmail.com',
-                content: 'tanjiro@gmail.com',
+                href: 'mailto:mask@gmail.com',
+                content: 'mask@gmail.com',
                 icon: 'gmail',
               },
             ],

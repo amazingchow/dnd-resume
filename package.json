@@ -11,7 +11,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && node build-script.mjs",
     "analyze": "npx vite-bundle-analyzer -c vite.config.ts",
     "preview": "vite preview",
     "lint": "eslint ."
@@ -39,6 +39,7 @@
     "@vercel/speed-insights": "^1.1.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "express": "^4.21.2",
     "i18next": "^24.2.1",
     "immer": "^10.1.1",
     "lucide-react": "^0.469.0",
